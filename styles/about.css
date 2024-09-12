@@ -1,5 +1,5 @@
 body {
-    background-image: url('../Images/NebulaBackground.jpg');
+    background-image: url('../Images/darkrock.jpg');
 }
 
 h1 {
@@ -11,7 +11,7 @@ nav {
 }
 
 .top {
-    background-image: url('../Images/dungeonwalls.jpg');
+    background-image: url('../Images/NebulaBackground.jpg');
     height: 80%;
     width: 30%;
     padding: 20px;
@@ -20,4 +20,45 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.disclaimer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+article {
+    color: rgb(0, 204, 68);
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+}
+
+aside {
+    color: white;
+    width: 30%;
+    padding-left: 30px;
+    margin-left: 50px;
+    float: right;
+    border-radius: 20px;
+}
+
+section {
+    color: rgb(0, 204, 68);
+    font-size: 20px;
+    margin: 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 200px;
 }
